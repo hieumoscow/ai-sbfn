@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "voucherqueue",
+      "connection": "aiservivebus_SERVICEBUS"
+    }
+  ],
+  "scriptFile": "../dist/ServiceBusQueueTrigger1/index.js"
+}
