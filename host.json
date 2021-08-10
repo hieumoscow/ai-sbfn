@@ -6,6 +6,15 @@
         "isEnabled": true,
         "excludedTypes": "Request"
       }
+    },
+    "serviceBus": {
+      "SessionHandlerOptions":
+       {
+          "MaxAutoRenewDuration": "00:01:00",
+          "MessageWaitTimeout": "00:05:00",
+          "MaxConcurrentSessions": 16,
+          "AutoComplete": true
+       }
     }
   },
   "extensionBundle": {

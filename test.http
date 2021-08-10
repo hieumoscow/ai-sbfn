@@ -1,0 +1,3 @@
+GET https://as-sbfn.azurewebsites.net/api/httptrigger1?name=hieu
+###
+GET http://localhost:7071/api/HttpTrigger1?name=hello

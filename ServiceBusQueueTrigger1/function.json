@@ -4,8 +4,9 @@
       "name": "mySbMsg",
       "type": "serviceBusTrigger",
       "direction": "in",
-      "queueName": "voucherqueue",
-      "connection": "aiservivebus_SERVICEBUS"
+      "queueName": "voucher",
+      "connection": "aiservivebus_SERVICEBUS",
+      "isSessionsEnabled": "true"
     }
   ],
   "scriptFile": "../dist/ServiceBusQueueTrigger1/index.js"
